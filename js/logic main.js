@@ -5,14 +5,14 @@ let Img = [
     "../image/img_4.png",
     "../image/img_5.png"
 ];
-let num = 0;
+let IdImg = 0;
 function  FlippingThrough(sign){
-if (sign === "+" && num < 4){
-    num++;
-    document.getElementById("mainPNG").src=Img[num];
+if (sign === "+" && IdImg < 4){
+    IdImg++;
+    document.getElementById("mainPNG").src=Img[IdImg];
 }
-    else if (sign === "-" && num>0){
-        num--;
-        document.getElementById("mainPNG").src=Img[num];
+    else if (sign === "-" && IdImg>0){
+    IdImg--;
+        document.getElementById("mainPNG").src=Img[IdImg];
     }
 }
