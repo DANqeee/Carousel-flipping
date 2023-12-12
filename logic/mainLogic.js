@@ -1,9 +1,9 @@
 let imageUrls = [
-    "../images/img.png",
-    "../images/img_2.png",
-    "../images/img_3.png",
-    "../images/img_4.png",
-    "../images/img_5.png",
+    "./images/img.png",
+    "./images/img_2.png",
+    "./images/img_3.png",
+    "./images/img_4.png",
+    "./images/img_5.png",
 ];
 let currentImgIndex = 0;
 const mainImageElement = document.getElementById("mainImage");
